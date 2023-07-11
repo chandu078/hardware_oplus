@@ -5,6 +5,11 @@
 /sys/devices/virtual/oplus_chg/battery/mmi_charging_enable            u:object_r:vendor_sysfs_battery_supply:s0
 /sys/devices/virtual/oplus_chg/battery/voocchg_ing                    u:object_r:vendor_sysfs_battery_supply:s0
 
+# DisplayFeature
+/sys/kernel/oplus_display/dimlayer_bl_en                           u:object_r:vendor_sysfs_graphics:s0
+/sys/kernel/oplus_display/hbm                                      u:object_r:vendor_sysfs_graphics:s0
+/proc/touchpanel/game_switch_enable                                u:object_r:vendor_proc_display:s0
+
 # Camera
 /data/vendor/camera_update(/.*)?                                                  u:object_r:vendor_camera_update_data_file:s0
 /mnt/vendor/persist/camera(/.*)?                                                  u:object_r:vendor_persist_camera_file:s0
