@@ -1,0 +1,2 @@
+rw_dir_file(hal_battery_default, vendor_sysfs_usb_supply)
+rw_dir_file(hal_battery_default, vendor_sysfs_battery_supply)
